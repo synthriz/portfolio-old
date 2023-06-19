@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>sitecu</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<html>
+<head>
+	<style>
+		body {
+			background-color: #C9C9C9;
+			margin: 0;
+			padding: 0;
+			font-family: 'Bellota', cursive;
+		}
+
+		.page-container {
+            max-width: 400px;
+			background: linear-gradient(0deg,#F0F0F0 99%, #C9C9C9 99%);
+			overflow: auto;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.navigation-bar {
+			background: linear-gradient(45deg, #F0F0F0 40%, #C9C9C9 40%);
+			padding: 3px;
+			margin-bottom: 10px;
+		}
+
+		.navigation-title {
+			font-family: Arial, Helvetica, sans-serif;
+			color: #000000;
+			margin-left: 10px;
+			font-size: small;
+		}
+
+		.site-address-container {
+			border: 2px solid #DDDDDD;
+			border-radius: 5px;
+			padding: 5px;
+			margin-bottom: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
+		}
+
+		.site-address-text {
+            text-align: right;
+            margin-left: 70px;
+            
+		}
+
+		.icons-container {
+			display: inline-block;
+			margin-left: 40px;
+		}
+
+		.icon {
+			display: inline-block;
+			margin-right: 10px;
+		}
+
+		.content-container {
+			display: flex;
+		}
+
+		.column {
+			flex: 1;
+			padding: 15px;
+			text-align: center;
+		}
+
+		.column-left {
+			background-color: #E0E0E0;
+		}
+
+		.column-right {
+			background-color: #F0F0F0;
+		}
+
+		#name {
+			margin-bottom: 25px;
+			font-size: 25px;
+			font-family: Arial, Helvetica, sans-serif;
+			margin-top: -1px;
+		}
+
+		.info {
+			line-height: 20%;
+		}
+
+		.info p:last-child {
+			margin-bottom: 25px;
+		}
+
+		#pronouns {
+			background-color: #C9C9C9;
+		}
+
+		.photo-container {
+  			text-align: center;
+  			/* margin-bottom: 20px; */
+  			font-style: italic;
+		}
+
+		.photo-container img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		#foto1 {
+			margin-bottom: 10px;
+		}
+
+		.social-links-container {
+			margin-top: 10px;
+		}
+
+		.social-link {
+			display: inline-block;
+			margin-right: 10px;
+			color: blue;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div class="page-container">
+		<div class="navigation-bar">
+			<span class="navigation-title">β</span>
+		</div>
+		<div class="site-address-container">
+            <span class="icons-container">&lt; &gt; &#8635;</span>
+			<span class="site-address-text">https://www.synthriz.com</span>
+		</div>
+		<div class="content-container">
+			<div class="column column-left">
+				<div class="photo-container">
+					<img id="foto1" src="img/foto1.jpg" alt="Foto 1">
+				</div>
+				<p id="name">β</p>
+				<div class="info">
+					<span id="pronouns">she/they</span>
+					<p id="languages">pt/en/es/ru</p>
+				</div>
+				<div class="photo-container">
+					<img src="img/foto3.jpg" alt="Foto 3">
+				</div>
+			</div>
+			<div class="column column-right">
+				<div class="photo-container">
+					<img src="img/foto2.jpg" alt="Foto 2">
+				</div>
+				<div class="about">
+				    <p>Lorem Ipsum</p>
+				    <p>self-taught programmer and chemistry technician</p>
+				</div>
+				<div class="social-links-container">
+					<a href="https://github.com" class="social-link">Lorem</a>
+					<a href="https://pinterest.com" class="social-link">Ipsum</a>
+					<a href="https://telegram.org" class="social-link">Dolor</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
